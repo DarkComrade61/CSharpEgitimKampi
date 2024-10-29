@@ -111,25 +111,25 @@ namespace _06_Arrays
             //    sum=sum+numbers[i];
             //}
             //Console.WriteLine(sum);
-            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
-            Console.WriteLine("Çift Sayılar");
-            for (int i = 0; i < numbers.Length; i++)
-            {
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+            //Console.WriteLine("Çift Sayılar");
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
                 
-                if (numbers[i]%2==0)
-                {
-                    Console.WriteLine(numbers[i]);
-                }
-            }
-            Console.WriteLine("Tek Sayılar");
-            for (int i = 0; i < numbers.Length; i++)
-            {
+            //    if (numbers[i]%2==0)
+            //    {
+            //        Console.WriteLine(numbers[i]);
+            //    }
+            //}
+            //Console.WriteLine("Tek Sayılar");
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
 
-                if (numbers[i] % 2 != 0)
-                {
-                    Console.WriteLine(numbers[i]);
-                }
-            }
+            //    if (numbers[i] % 2 != 0)
+            //    {
+            //        Console.WriteLine(numbers[i]);
+            //    }
+            //}
             #endregion
             Console.Read();
         }
